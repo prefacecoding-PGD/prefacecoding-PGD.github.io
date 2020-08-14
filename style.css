@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#banner {
+	background-color: 	rgb(255, 175, 100);
+}
+
+#form-row{
+	padding-right: 1rem;
+	padding-left:1rem;
+
+}
+
+#footer-row{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1rem;
+
+}
+
+#card-row{
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+#banner-row{
+	margin-top: 0; 
+	margin-bottom: 0;
+}
+
+#login-button{
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 150px;
+	height: 100px;
+}
+
+#btn-container{
+	flex-direction: column;
+	position: absolute;
+	top: 13%;
+}
+
+#btn-col{
+	position: static;
+
+}
+
+#form-go-up{
+	position: absolute;
+	top: 15%;
+	background-color: white;
+}
+
+.form-head{
+
+	font-family: 'Roboto Mono', monospace;
+
+	font-weight: 900;
+
+	text-align: center;
+}
+
+.row{
+	margin-top:0.5rem;
+	margin-bottom:0.5rem;
+	margin-left:1rem ;
+	margin-right: 1rem;
+
+}
+
+.card-title{
+	text-align: center;
+
+}
+
+/*picture*/
+.pic{
+	width: 100%;
+	height: auto;
+}
+/*promotion buttons*/
+.promo-btn{
+	margin-top: 10px;
+	width: 200px;
+}
+/*cards in home page*/
+.home-cards{
+	width:40%;
+}
+
+/*carousel height*/
+.carousel_height{
+	height:500px ;
+}
+
+
+
+form{
+	padding:0.5rem;
+
+}
+
+@media (max-width: 576px){
+	#btn-container{
+		position: static;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
+
+@media (max-width: 768px) {
+	.home-cards {
+		margin-bottom: 1rem; 
+		width :100%;
+	}
+}
+
+@media(max-width: 768px) {
+	#form-go-up{
+		position:static; 
+	}
+}
+
+/*menu*/
+
+.menu-head > h1{
+	display: inline-block;
+	padding: 0.5rem;
+}
+@media (max-width: 768px){
+	.menu-head{
+		text-align: center;
+	}
+}
+
